@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        font-size: 55px;
+        margin-left: 200px;
+        color: goldenrod;
+    }
+}
