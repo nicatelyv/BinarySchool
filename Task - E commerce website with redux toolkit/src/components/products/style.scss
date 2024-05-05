@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
 
     .productsMain {
         width: 90%;
@@ -12,14 +13,19 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        gap: 20px;
 
         .card {
-            width: 300px;
-            height: 400px;
+            width: 150px;
+            min-height: 150px;
+            padding-top: 10px;
+            padding-bottom: 30px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            gap: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
 
             img {
                 width: 100%;

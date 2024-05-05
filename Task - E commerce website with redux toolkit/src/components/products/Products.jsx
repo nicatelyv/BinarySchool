@@ -3,7 +3,7 @@ import { useGetAllProductsQuery } from "../../redux/productsApi"
 import "./style.scss"
 
 function Products() {
-    const { data, isLoading, isError } = useGetAllProductsQuery
+    const { data, isLoading, isError } = useGetAllProductsQuery()
 
     return (
         <div className='products'>
